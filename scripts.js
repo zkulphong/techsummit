@@ -55,6 +55,7 @@ initializeClock('clockdiv', deadline);
 $(document).ready(function () {
         var y = $(window).scrollTop();  //trigger fade in if refresh mid page
         $(window).scrollTop(y+1);
+        $(window).scrollTop(y-1);
 
         $('#toRegister').click(function () {
                 var currentScrollHeight = $(window).scrollTop();
