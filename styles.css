@@ -86,7 +86,6 @@ html, body{
 }
 
 #landing-title{
-        color: rgb(255, 255, 255);
         font-weight: bold;
         font-size: 12em;
         margin: 0 auto;
@@ -101,14 +100,15 @@ section{
         align-items: center;
 }
 #landing{
-        background-image: url("back.png");
+        background: url("back.png");
         background-attachment: fixed;
         background-position: center;
         background-size: cover;
-
+        
+        -webkit-text-fill-color: transparent;
         -webkit-background-clip: text;
         background-clip: text;
-        
+
         height: 100%;
         z-index: 100;
         display: flex;
